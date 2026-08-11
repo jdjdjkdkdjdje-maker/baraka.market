@@ -54,9 +54,6 @@ dependencies:
   url_launcher: ^6.3.0
   path_provider: ^2.1.4
 
-  # Speech
-  speech_to_text: ^7.4.0
-
   # OTP
   pinput: ^3.0.1
 
