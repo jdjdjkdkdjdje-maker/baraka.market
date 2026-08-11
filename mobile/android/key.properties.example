@@ -1,0 +1,9 @@
+# ============================================================
+# BARAKA MARKET — Android Keystore Properties
+# Bu faylni key.properties nomida saqlang (gitignore ga qo'shing!)
+# ============================================================
+
+storePassword=your_keystore_password
+keyPassword=your_key_password
+keyAlias=baraka_market
+storeFile=baraka_market.jks
