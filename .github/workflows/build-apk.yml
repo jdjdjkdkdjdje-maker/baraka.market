@@ -27,17 +27,6 @@ jobs:
           channel: 'stable'
           cache: true
 
-      - name: 📁 Create asset folders
-        run: |
-          mkdir -p assets/images
-          mkdir -p assets/icons
-          mkdir -p assets/animations
-          mkdir -p assets/fonts
-          touch assets/images/.gitkeep
-          touch assets/icons/.gitkeep
-          touch assets/animations/.gitkeep
-          touch assets/fonts/.gitkeep
-
       - name: 📦 Flutter pub get
         run: flutter pub get
 
